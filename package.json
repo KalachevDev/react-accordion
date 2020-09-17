@@ -30,5 +30,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "jest-axe": "^4.0.0",
+    "jest-styled-components": "^7.0.3",
+    "styled-components": "^5.2.0",
+    "uuid": "^8.3.0"
   }
 }

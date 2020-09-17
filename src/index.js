@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import styled from 'styled-components';
+import Accordion from './components/accordion';
+
+const StyledAppContainer = styled.div`
+  max-width: 600px;
+  margin: auto;
+`;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StyledAppContainer>
+      <Accordion title="Accordion">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum magna a ante tempor placerat. Sed interdum metus velit, in pellentesque lacus bibendum nec. Integer vitae consequat velit, nec feugiat est. Vestibulum lobortis aliquet lacinia. Suspendisse malesuada ultricies justo, non dignissim est lobortis quis. Aliquam at tellus eget mi condimentum.
+    </Accordion>
+      <Accordion title="Accordion">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum magna a ante tempor placerat. Sed interdum metus velit, in pellentesque lacus bibendum nec. Integer vitae consequat velit, nec feugiat est. Vestibulum lobortis aliquet lacinia. Suspendisse malesuada ultricies justo, non dignissim est lobortis quis. Aliquam at tellus eget mi condimentum.
+  </Accordion>
+    </StyledAppContainer>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
