@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import AccordionBody from '../components/accordionBody';
+import AccordionBody from './index';
 
 test('is renders content', () => {
     const wrapper = mount(<AccordionBody isOpen={false}>body</AccordionBody>);

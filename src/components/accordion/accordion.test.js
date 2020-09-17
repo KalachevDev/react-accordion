@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { axe } from 'jest-axe';
-import Accordion from '../components/accordion';
-import AccordionTitle from '../components/accordionTitle';
-import AccordionBody from '../components/accordionBody';
+import Accordion from '.';
+import AccordionTitle from '../accordionTitle';
+import AccordionBody from '../accordionBody';
 
 test('it renders title', () => {
     const wrapper = shallow(<Accordion title="title">Body</Accordion>);

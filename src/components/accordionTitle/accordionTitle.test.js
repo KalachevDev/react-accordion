@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import AccordionTitle from '../components/accordionTitle';
+import AccordionTitle from './index';
 
 test('it renders content', () => {
     const wrapper = mount(<AccordionTitle>title</AccordionTitle>);
