@@ -16,7 +16,7 @@ const StyledWrapper = styled.div`
  * Here is accessibility-friendly accordion component.
  *
  * @property {string} title
- * @property {object} children
+ * @property {React.children} children
  */
 const AccordionComponent = ({ title, children }) => {
     const { current: idPostfix } = useRef(uuid());
